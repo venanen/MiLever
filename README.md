@@ -1,24 +1,40 @@
-# timetable
+# MiLever - онлайн магазин
 
-## Project setup
-```
-npm install
-```
+Верстка главной страницы, страницы товаров и окна корзины. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+------------
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Стек
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js 
+- Vue-Router
+- Vuex
+- Vuetify
+- Flexbox.css
+
+
+------------
+
+### Фичи
+
+- Работа сайта без перезагрузки страницы
+- Адаптивность с поддержкой свайпов
+- Смена темы со светлой на темную и обратно
+- Реализация корзины с помощью Drawer, а не как обычно выпающим окошком
+
+------------
+## Пример светлой темы:
+
+[![](https://sun9-5.userapi.com/iGh6eNwQM17fyEqC0b9MrmmrPirmIrPIyNhPFQ/YdzkNjGtJ14.jpg)]() 
+
+## Пример темной темы:
+
+![](https://sun9-41.userapi.com/56aCOKQ6M8Dy21SO5s_j60TMsTGhH2D6my8-ww/v2qodwlhVbM.jpg)
+> Так как это просто верстка магазина с логикой на фронтенде, картинки не для продакшна, поэтому очевидно, по тему они не адаптированы. 
+
+При сборке магазина не забудьте поменять в файле `vue.config.js` строчку `publicPath` на папку, в которой будет работать приложение. Если в корне сайта - то адрес будет  `/`.
+
+*Фриланс*
+*Разработка закончена*
+
